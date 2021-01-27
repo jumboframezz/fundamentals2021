@@ -17,7 +17,7 @@
 
 age = int(input())
 drink = ""
-if age <= 13:  # Kids
+if age <= 14:  # Kids
     drink = "toddy"
 elif 13 < age <= 18:  # Teens
     drink = "coke"
