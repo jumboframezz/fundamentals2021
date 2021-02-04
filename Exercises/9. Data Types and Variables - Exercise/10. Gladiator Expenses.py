@@ -27,4 +27,5 @@ for battle in range(1, lost_count + 1):
 
     broken_helmet = True if battle % 2 == 0 else False
     broken_sword = True if battle % 3 == 0 else False
-    if broken_sword and broken_helmet
+    if broken_sword and broken_helmet:
+        pass
