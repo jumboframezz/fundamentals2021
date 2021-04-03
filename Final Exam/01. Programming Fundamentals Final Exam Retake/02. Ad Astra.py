@@ -19,3 +19,4 @@ print(f"You have food to last you for: {int(total_energy / 2000) } days!")
 
 for food in valid_data:
     print(f"Item: {food['food']}, Best before: {food['date']}, Nutrition: {food['energy']}")
+
