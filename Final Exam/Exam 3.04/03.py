@@ -56,7 +56,7 @@ while line != "Results":
     line = input()
 а = 5
 
-result = sorted(peoples.items(), key=lambda tkvp: (-tkvp[1]["health"], tkvp[1]["energy"]))
+result = sorted(peoples.items(), key=lambda tkvp: (-tkvp[1]["health"], tkvp[0]))
 print(f"People count: {len(peoples)}")
 
 
